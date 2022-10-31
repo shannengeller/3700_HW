@@ -77,7 +77,7 @@ def unique():
         column_names = [desc[0] for desc in cursor.description]
         log = record[:5]
         util.disconnect_from_db(connection,cursor)
-        return render_template('api/unique.html', sql_table = log, table_title=column_names)
+    return render_template('api/unique.html', sql_table = log, table_title=column_names)
 
     
 
