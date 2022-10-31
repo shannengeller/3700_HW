@@ -1,5 +1,7 @@
 Example 4: This project shows how we can connect PostgreSQL with flask and show SELECT results in a HTML table.
 
+
+Group 10 - Shannen Geller & Sepehr Saljooghi
 ## Quick Start
 ### Local Test Setup
 First, we need to install a Python 3 virtual environment with:
